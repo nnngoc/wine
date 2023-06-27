@@ -31,4 +31,4 @@ jobs:
           echo "![inline](./feature_importance.png)" >> report.md
           echo "![inline](./residuals.png)" >> report.md
           
-          cml-send-comment report.md
+          cml comment create report.md
